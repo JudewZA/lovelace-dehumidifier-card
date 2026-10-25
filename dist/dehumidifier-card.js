@@ -1,6 +1,6 @@
 /* Local-first Dehumidifier Card. No imports, telemetry or remote assets. */
 (() => {
-  const VERSION = '2.2.0';
+  const VERSION = '2.2.1';
   const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const num = value => value === null || value === undefined || value === '' || !Number.isFinite(Number(value)) ? null : Number(value);
   const fmt = (value, digits=0) => num(value) === null ? '—' : Number(value).toFixed(digits);

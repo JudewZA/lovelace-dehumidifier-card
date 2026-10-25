@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.2.1
+
+- Added official HACS repository validation with no ignored checks.
+- Prepared repository metadata for submission to the default HACS catalog.
+- No changes to device controls or card behavior.
+
 ## 2.2.0
 
 - Redesigned the card around a silver grille with live humidity and an inline percent symbol.
